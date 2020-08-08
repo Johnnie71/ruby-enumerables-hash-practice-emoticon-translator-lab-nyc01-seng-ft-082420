@@ -22,13 +22,13 @@ def get_japanese_emoticon(file,english_emoji)
   
   library.each do |value, meaning|
     if library[value][:english] == english_emoji
-      library[value][:japanese]
+      return library[value][:japanese]
     end
  end
 end
 
 def get_english_meaning(file, japenese_emoji)
-  file = load_library(file)
+  library = load_library(file)
   message = "Sorry!"
 
 end
