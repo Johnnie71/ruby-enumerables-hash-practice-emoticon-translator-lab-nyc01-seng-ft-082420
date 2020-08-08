@@ -33,7 +33,7 @@ def get_english_meaning(file, japenese_emoji)
   library.each do |value, meaning|
     # if library[value][:japanese] == japenese_emoji
       return library[value][:english]
-    # end
+    end
   end
   return message
 end
