@@ -18,7 +18,6 @@ end
 
 def get_japanese_emoticon(file,english_emoji)
   library = load_library(file)
-  # library = load_library ('./lib/emoticons.yml')
   message = "Sorry!"
   
   library.each do |value, meaning|
@@ -29,9 +28,7 @@ def get_japanese_emoticon(file,english_emoji)
 end
 
 def get_english_meaning(file, japenese_emoji)
-  # code goes here
-   library = load_library(file)
-# library = load_library ('./lib/emoticons.yml')
-message = "Sorry!"
+  library = load_library(file)
+  message = "Sorry!"
 
 end
