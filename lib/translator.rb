@@ -24,7 +24,7 @@ def get_japanese_emoticon(file,english_emoji)
       return library[value][:japanese]
     end
  end
- message
+ return message
 end
 
 def get_english_meaning(file, japenese_emoji)
