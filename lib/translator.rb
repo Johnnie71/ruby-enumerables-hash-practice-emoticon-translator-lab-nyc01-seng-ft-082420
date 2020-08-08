@@ -35,8 +35,5 @@ def get_english_meaning(file, japenese_emoji)
       return library[value][:english]
     end
   end
-  message
- end
-
-
+  return message
 end
