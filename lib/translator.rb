@@ -36,5 +36,4 @@ def get_english_meaning(file, japenese_emoji)
     end
   end
   return message
-  binding.pry
 end
