@@ -22,9 +22,8 @@ def get_japanese_emoticon(file,english_emoji)
   library.each do |value, meaning|
     if library[value][:english] == english_emoji
       return library[value][:japanese]
-    elsif
-     return message
     end
+    message
  end
 end
 
