@@ -16,24 +16,24 @@ def load_library(file)
   # binding.pry
 end
 
-def get_japanese_emoticon(file,english_emoji)
-  library = load_library(file)
-  message = "Sorry, that emoticon was not found"
-  library.each do |value, meaning|
-    if library[value][:english] == english_emoji
-      return library[value][:japanese]
-    end
- end
- return message
-end
+# def get_japanese_emoticon(file,english_emoji)
+#   library = load_library(file)
+#   message = "Sorry, that emoticon was not found"
+#   library.each do |value, meaning|
+#     if library[value][:english] == english_emoji
+#       return library[value][:japanese]
+#     end
+# end
+# return message
+# end
 
-def get_english_meaning(file, japenese_emoji)
-  library = load_library(file)
-  message = "Sorry, that emoticon was not found"
-  library.each do |value, meaning|
-    if library[value][:japanese] == japenese_emoji
-      return library[value][:english]
-    end
-  end
-  return message
-end
+# def get_english_meaning(file, japenese_emoji)
+#   library = load_library(file)
+#   message = "Sorry, that emoticon was not found"
+#   library.each do |value, meaning|
+#     if library[value][:japanese] == japenese_emoji
+#       return library[value][:english]
+#     end
+#   end
+#   return message
+# end
