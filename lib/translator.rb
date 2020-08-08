@@ -32,7 +32,7 @@ def get_english_meaning(file, japenese_emoji)
   message = "Sorry, that emoticon was not found"
   library.each do |value, meaning|
     if library[value][:japanese] == japenese_emoji
-      return library[value][:english]
+      return library[:english]
     end
   end
   return message
