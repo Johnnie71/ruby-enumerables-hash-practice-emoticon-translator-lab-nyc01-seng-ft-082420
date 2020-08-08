@@ -23,8 +23,8 @@ def get_japanese_emoticon(file,english_emoji)
     if library[value][:english] == english_emoji
       return library[value][:japanese]
     end
-    message
  end
+ message
 end
 
 def get_english_meaning(file, japenese_emoji)
