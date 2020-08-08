@@ -17,7 +17,8 @@ def load_library(file)
 end
 
 def get_japanese_emoticon(file,english_emoji)
-  library = load_library ('./lib/emoticons.yml')
+  library = load_library(file)
+  # library = load_library ('./lib/emoticons.yml')
   message = "Sorry!"
   
   library.each do |value, meaning|
