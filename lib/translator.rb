@@ -30,7 +30,7 @@ end
 
 def get_english_meaning(file, japenese_emoji)
   # code goes here
-  
+   library = load_library(file)
 # library = load_library ('./lib/emoticons.yml')
 message = "Sorry!"
 
